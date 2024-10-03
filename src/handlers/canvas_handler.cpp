@@ -29,6 +29,8 @@ void CanvasHandler::start() {
 		while (true) {
 			try {
 				log("Reloading config file");
+				Config::getInstance().reload("config/config.json");
+				log("Setting configuration for canvas handler");
 				config_ = Config::getInstance().getCanvasConfig();
 
 				log("Starting assignment check...");
