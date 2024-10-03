@@ -1,0 +1,17 @@
+{
+  "rss_feeds": [
+    {
+      "feed_url": "https://canvas.asu.edu/feeds/announcements/enrollment_efT6ZlRzrwchYrgLDlLN7LbVCh8VqAiFtCfSxzhm.atom",
+      "check_interval": 10,
+      "discord_channel_id": "1204952642607128596",
+      "ping_role_id": "1181081406135341188"
+    }
+  ],
+  "canvas_updates": {
+    "api_url": "https://canvas.instructure.com/api/v1/",
+    "course_id": "72360000000198242",
+    "check_interval": 120,
+    "discord_channel_id": "1204952642607128596",
+    "ping_role_id": "1181081406135341188"
+  }
+}
